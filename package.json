@@ -1,0 +1,20 @@
+{
+  "name": "simplepage-cli",
+  "version": "1.0.0",
+  "description": "simplepage",
+  "scripts": {
+    "dev": "m-bin dev",
+    "build": "m-bin build",
+    "build-inline": "m-bin build -i"
+  },
+  "keywords": [
+    "html",
+    "javascript",
+    "jquery",
+    "vue",
+    "zepto"
+  ],
+  "author": "renyuan.zhang@kuwo.cn",
+  "license": "ISC",
+  "dependencies": {}
+}
