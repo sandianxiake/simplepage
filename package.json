@@ -1,11 +1,9 @@
 {
-  "name": "simplepage-cli",
-  "version": "1.0.0",
+  "name": "simplepage",
+  "version": "1.0.2",
   "description": "simplepage",
   "scripts": {
-    "dev": "m-bin dev",
-    "build": "m-bin build",
-    "build-inline": "m-bin build -i"
+    "dev": "mm-bin dev"
   },
   "keywords": [
     "html",
@@ -14,7 +12,17 @@
     "vue",
     "zepto"
   ],
-  "author": "renyuan.zhang@kuwo.cn",
+  "author": "sandianxiake",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "css-loader": "^3.5.1",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10"
+  }
 }
